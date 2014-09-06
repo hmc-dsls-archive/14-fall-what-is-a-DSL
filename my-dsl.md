@@ -50,10 +50,10 @@ to create multiple visualizations of the same data.
 
 # Drawbacks
 _Identify one potential drawback of the DSL: what does a programmer or company 
-lose by using this DSL instead of general-purpose language?_
+lose by using this DSL instead of a general-purpose language?_
 
 (*Note: It's been a little while since I used Exhibit. The current version may 
-have addressed some of these drawbacks.*ß)
+have addressed some of these drawbacks.*)
 
 I've found it hard to filter data, mostly because there seem to be lots of
 hidden features that the documentation doesn't talk about (I had to suss them
