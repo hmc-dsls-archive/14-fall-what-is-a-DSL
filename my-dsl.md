@@ -1,11 +1,11 @@
 # Language
 _What is the name of the language? Link the name to its webpage 
 (if appropriate)._
-
+[Exhibit](http://www.simile-widgets.org/exhibit3)
 
 # Domain
 _Describe the language's domain in five words._
-
+Data-driven, interactive web pages
 
 # Computational model
 _What is the underlying computational model of this language? To answer this 
@@ -23,16 +23,41 @@ and why?_
 _Is the language implemented as an internal or external DSL? 
 Justify your answer._
 
+This one is harder to classify than I thought! 
+
+On the one hand, Exhibit is an internal language whose host language is HTML: to
+specify the visualizations, users write HTML elements with special attributes;
+to specify the data, users write a form of JSON (an internal JavaScript DSL).
+
+On the other hand, Exhibit is implemented in JavaScript, which relies on a
+parser to pull the attributes out of the HTML and which rewrites that HTML à la
+a compiler.
+
+But I'm happy classifying Exhibit as an internal language, where the host
+language is HTML+JavaScript(+CSS).
 
 # Host language
 _What language(s) was (were) used to implement the DSL?_
 
+HTML+JavaScript(+CSS)
 
 # Benefits
 _Identify one potential benefit of the DSL: how is a programmer's life or a 
 company's bottom line made easier by the existence of this language?_
 
+It's easy to get some rich visualizations up and running quickly. It's also easy
+to create multiple visualizations of the same data.
 
 # Drawbacks
 _Identify one potential drawback of the DSL: what does a programmer or company 
 lose by using this DSL instead of general-purpose language?_
+
+(*Note: It's been a little while since I used Exhibit. The current version may 
+have addressed some of these drawbacks.*ß)
+
+I've found it hard to filter data, mostly because there seem to be lots of
+hidden features that the documentation doesn't talk about (I had to suss them
+out from examples I found on the web.)
+
+The language doesn't make it easy to add new visualizations. If I wanted to
+graph some data, that'd be difficult.
