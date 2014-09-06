@@ -1,10 +1,12 @@
 # Language
 _What is the name of the language? Link the name to its webpage 
 (if appropriate)._
+
 [Exhibit](http://www.simile-widgets.org/exhibit3)
 
 # Domain
 _Describe the language's domain in five words._
+
 Data-driven, interactive web pages
 
 # Computational model
@@ -13,11 +15,14 @@ question, provide a high-level description (no more than 100 words) of the
 computation that occurs when someone executes a program in this language._
 
 
+**TODO**
+
 # DSL-ness
 _Fowler writes about a spectrum of languages, from general-purpose languages to 
 "purely" domain-specific. Where does the DSL you chose fall on this spectrum, 
 and why?_ 
 
+**TODO**
 
 # Internal or external?
 _Is the language implemented as an internal or external DSL? 
