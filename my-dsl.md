@@ -14,15 +14,22 @@ _What is the underlying computational model of this language? To answer this
 question, provide a high-level description (no more than 100 words) of the 
 computation that occurs when someone executes a program in this language._
 
-
-**TODO**
+An Exhibit program is an HTML page that loads the Exhibit library and specifies
+one or more data sources. The HTML page describes, in a declarative way, 
+how to display the elements of the data. The Exhibit library takes the HTML page
+and data source(s) as input and essentially compiles a new HTML page that lays
+out the data visualization and iteractive elements described by the input.
 
 # DSL-ness
 _Fowler writes about a spectrum of languages, from general-purpose languages to 
 "purely" domain-specific. Where does the DSL you chose fall on this spectrum, 
 and why?_ 
 
-**TODO**
+It's what I'd call a "practical" domain-specific language. Exhibit has some 
+general-purpose language constructs, such as looping and conditionals. Because
+it is an internal language, it provides users with an "escape hatch": a user can
+always write raw HTML, JavaScript, or CSS to augment the program. Overall, I
+think it strikes a very nice balance as a DSL.
 
 # Internal or external?
 _Is the language implemented as an internal or external DSL? 
